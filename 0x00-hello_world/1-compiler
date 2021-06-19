@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(gcc -Wall -g -c $CFILE)"
+echo "$(gcc -Wall -g -c 1-main.c)"
