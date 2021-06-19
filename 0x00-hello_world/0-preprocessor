@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$(gcc -E $CFILE)" >> /c/main.s|gcc -E $CFILE
